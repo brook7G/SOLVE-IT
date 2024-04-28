@@ -11,4 +11,13 @@ def fizzbuzz():
 
 #-----------------------------------------------------#
 
-#2: 
+#2: Palindrome
+def is_palindrome(s):
+    s = ''.join(char.lower() for char in s if char.isalnum())
+    return s == s[::-1]
+    
+# print(is_palindrome("racecar"))  # Output: True
+# print(is_palindrome("hello"))  # Output: False
+
+#-----------------------------------------------------#
+#3: 
