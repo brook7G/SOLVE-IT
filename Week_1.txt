@@ -1,0 +1,32 @@
+
+### 1. FizzBuzz
+
+Objective: Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, and for multiples of five, print "Buzz". For numbers which are multiples of both three and five, print "FizzBuzz".
+
+Hint: Use a loop to iterate through the numbers and conditional statements to check for multiples.
+
+### 2. Palindrome Checker
+
+Objective: Write a function that takes a string as input and returns True if the string is a palindrome, and False otherwise. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward, ignoring spaces, punctuation, and capitalization.
+
+Hint: Convert the string to lowercase, remove non-alphanumeric characters, and compare it to its reverse.
+
+### 3. Factorial Calculator
+
+Objective: Write a function that calculates the factorial of a given number. The factorial of a number is the product of all positive integers less than or equal to that number.
+
+Hint: Use a loop to multiply the numbers from 1 to the input number.
+
+### 4. Simple Calculator
+
+Objective: Create a simple calculator that can perform addition, subtraction, multiplication, and division. The calculator should take two numbers and an operator as input and return the result of the operation.
+
+Hint: Use conditional statements to determine which operation to perform based on the operator.
+
+### 5. String Reversal
+
+Objective: Write a function that takes a string as input and returns the string reversed.
+
+Hint: Use slicing to reverse the string.
+
+These challenges cover a range of topics including loops, conditionals, string manipulation, and basic arithmetic operations. They should help you practice and improve your coding skills. Good luck!
