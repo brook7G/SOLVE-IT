@@ -37,5 +37,25 @@ def factorial(n):
 # print(factorial(5))
 
 #-----------------------------------------------------#
-#4: 
+#4: Simple Calculator
+def calculator(num1, num2, operator):
+    if operator == "+":
+        return num1 + num2
+    elif operator == "-":
+        return num1 - num2
+    elif operator == "*":
+        return num1 * num2
+    elif operator == "/":
+        if num2 == 0:
+            print("Error: Division by zero is not allowed.")
+            return None
+        else:
+            return num1 / num2
+    else:
+        print("Error: Invalid operator. Please try again.")
+        return None
 
+# print(calculator(5, 6, "+"))
+
+#-----------------------------------------------------#
+#5: 
