@@ -7,7 +7,7 @@ def fizzbuzz():
         if i % 5 == 0:
             output += "Buzz"
         print(output if output else i)
-# fizzbuzz()
+fizzbuzz()
 
 #-----------------------------------------------------#
 
@@ -20,4 +20,22 @@ def is_palindrome(s):
 # print(is_palindrome("hello"))  # Output: False
 
 #-----------------------------------------------------#
-#3: 
+#3: Factorial calculator
+def factorial(n):
+    try:
+        if not isinstance(n, int):
+            raise ValueError("Input must be an integer")
+        elif n < 0:
+            raise ValueError("Factorial is not defined for negative numbers")
+        elif n == 0 or n == 1:
+            return 1
+        else:
+            return n * factorial(n - 1)
+    except ValueError as e:
+        return f"Error: {e}"
+
+# print(factorial(5))
+
+#-----------------------------------------------------#
+#4: 
+
