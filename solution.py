@@ -47,15 +47,19 @@ def calculator(num1, num2, operator):
         return num1 * num2
     elif operator == "/":
         if num2 == 0:
-            print("Error: Division by zero is not allowed.")
+            # Division by zero is not allowed.
             return None
         else:
             return num1 / num2
     else:
-        print("Error: Invalid operator. Please try again.")
+        # Invalid operator input
         return None
 
 # print(calculator(5, 6, "+"))
 
 #-----------------------------------------------------#
-#5: 
+#5: String Reversal
+def reverse_string(input_string):
+    return input_string[::-1]
+ 
+# print(reverse_string("Hello, World!"))
