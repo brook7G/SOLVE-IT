@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    color: #333;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"%3E%3C/svg%3E');
+    background-repeat: repeat;
+    background-size: 50px 50px;
+}
+
+.header,.footer {
+    padding: 20px;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.header {
+    margin-bottom: 40px;
+    transform: translateY(-5px);
+}
+
+.footer {
+    margin-top: 40px;
+    transform: translateY(5px);
+}
+
+.header:hover,.footer:hover {
+    transform: translateY(0);
+}
+
+.challenge {
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.challenge:hover {
+    transform: scale(1.05);
+}
+
+.challenge h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.challenge p {
+    line-height: 1.6;
+}
+
+.challenge p strong {
+    color: #007bff;
+}
+
+.challenge p + p {
+    margin-top: 20px;
+}
+/* solveIt.css */
+
+.main-link button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer on hover */
+    transition-duration: 0.4s; /* Transition effect */
+}
+
+.main-link button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    color: white; /* Keep text color white */
+}
