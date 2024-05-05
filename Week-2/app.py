@@ -33,14 +33,14 @@ def word_ladder_length(start, end, word_list):
     return 0
 
 def fourier_transform_menu():
-    print("===== Fourier Transform Challenge =====")
+    print(" Fourier Transform ")
     sequence = input("Enter a sequence of complex numbers separated by spaces: ").split()
     sequence = [complex(num) for num in sequence]
     result = fft(sequence)
     print("Fourier Transform:", result)
 
 def word_ladder_menu():
-    print("===== Word Ladder Challenge =====")
+    print("Word Ladder ")
     start_word = input("Enter the start word: ")
     end_word = input("Enter the end word: ")
     word_list = input("Enter a list of words separated by spaces: ").split()
@@ -60,10 +60,10 @@ def main():
         elif choice == '2':
             word_ladder_menu()
         elif choice == '3':
-            print("Exiting the program.")
+            print("Exiting")
             break
         else:
-            print("Invalid choice. Please enter a valid option.")
+            print("Please enter a valid option.")
 
 if __name__ == "__main__":
     main()
