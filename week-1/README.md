@@ -2,7 +2,7 @@
 Welcome to the Coding Challenge Repository! This repository is dedicated to hosting coding challenges that test your programming skills and problem-solving abilities.
 
 
-TRYING TO LEARN THINGS
+
 
 ## Challenge Announcement
 
