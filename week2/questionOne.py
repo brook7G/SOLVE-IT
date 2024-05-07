@@ -10,7 +10,7 @@ def computeandPrintFFT(arr):
     # Convert the input list to a numpy array
     numpy_data = np.array(arr)
 
-    # Compute the FFT of the input array using a library form SCIPY
+    # Compute the FFT of the input array using a library form SCIPY 
     fft_result = fft(numpy_data)
 
     # Compute the magnitude of each component
