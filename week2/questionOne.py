@@ -22,6 +22,8 @@ def computeandPrintFFT(arr):
     # Print the results
     for i in range(len(fft_result)):
       print(f"Component {i+1}: Magnitude = {magnitude[i]}, Phase = {phase[i]}")
+    
+    return fft_results
 
 
 # Test with the custom test cases
